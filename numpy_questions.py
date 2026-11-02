@@ -45,8 +45,6 @@ def max_index(X):
         raise ValueError("Input must be a numpy array.")
     if not len(X.shape)==2:
         raise ValueError("Input must be a numpy array.")
-        
-
 
     max=-np.inf
     for i_ in range(X.shape[0]):
