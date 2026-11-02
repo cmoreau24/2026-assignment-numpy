@@ -17,7 +17,7 @@ by calling `ruff check` at the root of the repo.
 """
 import numpy as np
 
-
+print("test")
 def max_index(X):
     """Return the index of the maximum in a numpy array.
 
